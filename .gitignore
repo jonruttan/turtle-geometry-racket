@@ -1,0 +1,41 @@
+## Project Specific
+
+
+## Framework Specific
+compiled/
+
+## Language Specific
+
+# Autocompletion files
+.phpintel
+
+
+## Tool Specific
+
+# Sublime Text editor files
+*.sublime-*
+
+# Windows Specific files
+thumbs.db
+desktop.ini
+
+# Apple Specific files
+.DS_Store
+
+# Linux Specific files
+# KDE
+.directory
+
+
+## General
+
+# Editor backups
+*~
+*.bak
+*.sav
+
+# Files prefixed with a hash symbol, ie. #test.txt
+\#*
+
+# tmp files
+tmp
