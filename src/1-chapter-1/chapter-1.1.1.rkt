@@ -65,16 +65,6 @@
     (forward size)
     (right 90)))
 
-;; Example 1.1.1.1, p.6#ex.0
-;; 
-;; SQUARE 100
-;;
-; NOTE: Renamed from `square` here to avoid namespace clash.
-(square-alt2 100)
-
-; ACTION: Save snapshot ex.1.1.1.1
-(clearscreen)
-
 
 ;; Computation 1.1.1.3, p.6#comp.0
 ;; 
@@ -96,16 +86,6 @@
 (define (square-alt3 size)
   (repeat 4 (squarepiece size)))
 
-;; Example 1.1.1.2, p.6#ex.0
-;; 
-;; SQUARE 100
-;;
-; NOTE: Renamed from `square` here to avoid namespace clash.
-(square-alt3 100)
-
-; ACTION: Save snapshot ex.1.1.1.2
-(clearscreen)
-
 
 ;; Computation 1.1.1.5, p.6#comp.2
 ;; 
@@ -126,10 +106,10 @@
           (squarepiece side1)
           (squarepiece side2)))
 
-;; Example 1.1.1.3, p.6#ex.1
+;; Example 1.1.1.2, p.6#ex.1
 ;; 
 ;; RECTANGLE 100 50
 ;;
 (rectangle 100 50)
 
-; ACTION: Save snapshot ex.1.1.1.3
+; ACTION: Save snapshot ex.1.1.1.2
